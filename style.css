@@ -1,7 +1,6 @@
 /* globals */
 html {
     box-sizing: border-box;
-    width: 100vw;
 }
 
 *,
@@ -193,7 +192,6 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-flow: row wrap;
 }
 
 .container-col {
@@ -550,4 +548,15 @@ input {
         max-width: 100%;
     }
 
+}
+
+#scrollUp {
+    background-image: url("img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;
+    height: 38px;
+    position: fixed;
+    z-index: 2147483647;
+    bottom: 80px;
 }
