@@ -1,6 +1,8 @@
 /* globals */
+
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -549,6 +551,8 @@ input {
     }
 
 }
+
+
 
 #scrollUp {
     background-image: url("img/top.png");
